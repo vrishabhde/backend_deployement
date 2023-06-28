@@ -23,9 +23,9 @@ app.get("/ping", (req, res) => {
 app.get("/urlencoded", (req, res) => {
     res.send(
         `<form method='post' action='/login'>
-            <input name="email" placeholder="text" />
+            <input name="email" placeholder="email" />
             <input name="password"  placeholder="password"/>
-            <button type='submit' value="login"></button>
+            <button>login</button>
         </form>`
     )
 })
